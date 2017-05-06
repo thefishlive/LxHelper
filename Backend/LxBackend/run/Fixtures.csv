@@ -1,0 +1,78 @@
+,,,,,Little Shop Of Horrors,,,,,,
+,,,,,FixtureExport,,,,,,
+,,,,,,,,,,,
+Channel,Circuit Number,Dimmer,Instrument Type,Wattage,Purpose,Color,Position,Unit Number,Universe,Address,Num Channels
+310,,,ProLights Reflex S,,,,Bridge 1,1,2,300,15
+309,,,ProLights Reflex S,,,,Bridge 1,2,2,316,15
+308,,,ProLights Reflex S,,,,Bridge 1,4,2,331,15
+307,,,ProLights Reflex S,,,,Bridge 1,5,2,346,15
+302,,,Martin MAC 550,250W,,,W5,1,2,51,27
+301,,,Martin MAC 550,250W,,,W5,2,2,1,27
+303,,,Martin Mac 600,575W,,,W3,2,2,101,15
+304,,,Martin Mac 600,575W,,,W3,1,2,121,15
+306,,,Martin MAC 250 Entour,250W,,,W2,1,2,171,15
+305,,,Martin MAC 250 Entour,250W,,,W2,2,2,151,15
+500,,,Martin Atomic 3000 DMX,3000W,,,Bridge 1,3,2,201,4
+209,,,Stairville LED Par 56,16W,Stage Crosslight,,Tech Balcony SR,2,2,416,5
+210,,,Stairville LED Par 56,16W,Stage Crosslight ,,Tech Balcony SL,2,2,401,5
+207,,,Stairville LED Par 56,16W,Stage Sidelight,,Tech Balcony SR,1,2,411,5
+208,,,Stairville LED Par 56,16W,Stage Sidelight,,Tech Balcony SL,1,2,406,5
+202,,,Prolight LED Par56 PRO,56W,Revolve uplight,,Floor,6,2,441,8
+201,,,Prolight LED Par56 PRO,56W,Revolve uplight,,Floor,13,2,431,8
+204,,,Prolight LED Par56 PRO,56W,Stage cross/ up light,,Floor,1,2,461,8
+203,,,Prolight LED Par56 PRO,56W,Stage cross/ up light,,Floor,18,2,451,8
+206,,,Stairville LED Par 56,16W,Window Backlight,,Floor,4,2,426,5
+205,,,Stairville LED Par 56,16W,Window Backlight,,Floor,5,2,421,5
+27,,1,Shakespeare 15-30,600W,Revolve Face (shop front),L003,Bridge 5,7,1,1,1
+27,,,Shakespeare 15-30,600W,Revolve face (shop front),L003,Bridge 5,1,1,1,1
+3,,2,Shakespeare 15-30,600W,Balcony L Face,L003,Bridge 5,2,1,2,1
+3,,,Shakespeare 15-30,600W,Balcony L Face,L003,Bridge 5,3,1,2,1
+2,,3,Shakespeare 15-30,600W,Revolve Face,L003,Bridge 5,4,1,3,1
+2,,,Shakespeare 15-30,600W,Revolve Face,L003,Bridge 5,5,1,3,1
+2,,,Shakespeare 15-30,600W,Revolve Face,L003,Bridge 5,6,1,3,1
+1,,4,Shakespeare 15-30,600W,Balcony R Face,L003,Bridge 5,8,1,4,1
+1,,,Shakespeare 15-30,600W,Balcony R Face,L003,Bridge 5,9,1,4,1
+14,,5,Shakespeare 15-30,600W,Stairlight,L003,Bridge 4,1,1,5,1
+28,,6,310 HPC,1kw/1.2kw,Revolve Cold Wash (shop front),L201,Bridge 4,4,1,6,1
+12,,7,310 HPC,1kw/1.2kw,O/W Wash,O/W,Bridge 4,5,1,7,1
+9,,8,310 HPC,1kw/1.2kw,Cold Wash,L201,Bridge 4,6,1,8,1
+11,,9,310 HPC,1kw/1.2kw,O/W Wash,O/W,Bridge 4,7,1,9,1
+8,,10,310 HPC,1kw/1.2kw,Cold Wash,L201,Bridge 4,8,1,10,1
+13,,11,310 HPC,1kw/1.2kw,O/W Wash,O/W,Bridge 4,2,1,11,1
+10,,12,310 HPC,1kw/1.2kw,Cold Wash,L201,Bridge 4,3,1,12,1
+19,,13,PAR 64 NSP,1KW,Audrey II Spot,L736,Bridge 3,2,1,13,1
+17,,14,310 HPC,1kw/1.2kw,Revolve Cold Wash,L201,Bridge 3,3,1,14,1
+18,,15,310 HPC,1kw/1.2kw,Revolve Wash,O/W,Bridge 3,1,1,15,1
+18,,,310 HPC,1kw/1.2kw,Revolve Wash,O/W,Bridge 3,4,1,15,1
+16,,16,310 HPC,1kw/1.2kw,O/W Wash,O/W,Bridge 3,5,1,16,1
+15,,17,310 HPC,1kw/1.2kw,Cold Wash,L201,Bridge 3,6,1,17,1
+32,,18,,,Mirror Ball,,W4,1,1,18,1
+20,,21,310 HPC,1kw/1.2kw,Shop Wall,L733,Bridge 2,1,1,21,1
+20,,,310 HPC,1kw/1.2kw,Shop Wall,L733,Bridge 2,2,1,21,1
+24,,22,SL 23/50,575,Breakup backlight,O/W,Bridge 1 SL,2,1,22,1
+25,,23,SL 23/50,575,Dollar backlight,O/W,Bridge 1 SL,1,1,23,1
+30,,24,,,Lamp post,,Floor,11,1,24,1
+51,,26,Cuepix Blinder WW4,427,Blinders,,Floor,2,1,26,1
+31,,27,,,Mushnik desk light,,Floor,3,1,27,1
+23,,28,PAR 64 WFL,1KW,Window backlight,O/W,Floor,7,1,28,1
+23,,,PAR 64 WFL,1KW,Window backlight,O/W,Floor,8,1,28,1
+23,,29,PAR 64 WFL,1KW,Window backlight,O/W,Floor,9,1,29,1
+23,,,PAR 64 WFL,1KW,Window backlight,O/W,Floor,10,1,29,1
+41,,30,PAR 64 WFL,1KW,Shop door back light,O/W,Floor,12,1,30,1
+7,P1,31,Shakespeare 15-30,600W,Face (non-revolve),L003,Tech Balcony - DS,1,1,31,1
+26,P2,32,Shakespeare 15-30,600W,Revolve Face,L003,Tech Balcony - DS,2,1,32,1
+6,P3,33,Shakespeare 15-30,600W,Face (non-revolve),L003,Tech Balcony - DS,3,1,33,1
+5,P4,34,Shakespeare 15-30,600W,Face (non-revolve),L003,Tech Balcony - DS,4,1,34,1
+4,P5,35,Shakespeare 15-30,600W,Face (non-revolve),L003,Tech Balcony - DS,5,1,35,1
+21,P7,36,PAR 64 NSP,1KW,House lights,L736,Tech Balcony SR,4,1,36,1
+21,P6,,PAR 64 NSP,1KW,House lights,L736,Tech Balcony SR,3,1,36,1
+40,P16,37,SL 23/50,575,Shop sign back light,L071,Tech Balcony - US,1,1,37,1
+22,P27,38,PAR 64 NSP,1KW,House lights,L736,Tech Balcony SL,4,1,38,1
+22,P26,,PAR 64 NSP,1KW,House lights,L736,Tech Balcony SL,3,1,38,1
+52,,41,Cuepix Blinder WW4,427,Blinders,,Floor,17,1,41,1
+50,,42,Cuepix Blinder WW4,427,Blinders,,Floor,16,1,42,1
+50,,43,Cuepix Blinder WW4,427,Blinders,,Floor,14,1,43,1
+29,,44,PAR 64 WFL,1KW,Window backlight,O/W,Floor,20,1,44,1
+29,,,PAR 64 WFL,1KW,Window backlight,O/W,Floor,19,1,44,1
+33,,45,,,Fluorescent,,Floor,15,1,45,1
+,,,,,,,,,,,
