@@ -10,7 +10,16 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
+import io.netty.handler.ssl.SslContext;
+import io.netty.handler.ssl.SslContextBuilder;
+import io.netty.handler.ssl.SslHandler;
+import io.netty.handler.ssl.util.SelfSignedCertificate;
 import uk.co.thefishlive.lx.data.ShowData;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLException;
+import java.io.File;
+import java.security.cert.CertificateException;
 
 public class HttpServer
 {
@@ -18,17 +27,19 @@ public class HttpServer
     private final EventLoopGroup masterGroup;
     private final EventLoopGroup slaveGroup;
 
+    private final SslContext context;
     private final int port;
 
-    public HttpServer(int port)
+    public HttpServer(int port, SslContext sslcontext)
     {
         masterGroup = new NioEventLoopGroup();
         slaveGroup = new NioEventLoopGroup();
 
+        this.context = sslcontext;
         this.port = port;
     }
 
-    public void start(ShowData data) // #1
+    public void start(ShowData data)
     {
         Runtime.getRuntime().addShutdownHook(new Thread()
         {
@@ -41,13 +52,13 @@ public class HttpServer
 
         try
         {
-            // #3
             final ServerBootstrap bootstrap = new ServerBootstrap().group(masterGroup, slaveGroup)
                     .channel(NioServerSocketChannel.class).childHandler(new ChannelInitializer<SocketChannel>() // #4
                     {
                         @Override
                         public void initChannel(final SocketChannel ch) throws Exception
                         {
+                            ch.pipeline().addLast("ssl", context.newHandler(ch.alloc()));
                             ch.pipeline().addLast("codec", new HttpServerCodec());
                             ch.pipeline().addLast("aggregator", new HttpObjectAggregator(512 * 1024));
                             ch.pipeline().addLast("request", new HttpRequestHandler(data));
@@ -60,7 +71,7 @@ public class HttpServer
         }
     }
 
-    public void shutdown() // #2
+    public void shutdown()
     {
         slaveGroup.shutdownGracefully();
         masterGroup.shutdownGracefully();

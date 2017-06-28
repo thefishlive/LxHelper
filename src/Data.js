@@ -7,7 +7,7 @@ const PLANS = [
   { id: 4, name:"Sheet 4 - Floor", path:"/lx-plan-sht-1.pdf" }
 ];
 
-const BACKEND = 'http://lx.thefishlive.co.uk:8080/'
+const BACKEND = 'https://lx.thefishlive.co.uk:8080/'
 
 export function GetPositions()
 {
